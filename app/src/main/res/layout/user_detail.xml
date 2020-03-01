@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@drawable/lack_cr"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="258sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="73sp"
+            android:layout_marginLeft="73sp"
+            android:layout_marginTop="77dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginRight="80dp"
+            android:text="User Information"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#f6f"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-smallcaps" />
+
+    <TableLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="577dp"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="0dp">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+            <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="70sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_blue_bright"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:text="ID" />
+
+            <TextView
+                    android:id="@+id/idd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_blue_bright"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:text="TextView" />
+        </TableRow>
+
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+            <TextView
+                    android:id="@+id/naaame"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="70sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_blue_bright"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:text="User Name" />
+
+            <TextView
+                    android:id="@+id/unamee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_blue_bright"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+            <TextView
+                    android:id="@+id/fnaaame"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="70sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_blue_bright"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:text="Full Name" />
+
+            <TextView
+                    android:id="@+id/fnamee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_blue_bright"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:text="TextView" />
+        </TableRow>
+
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+            <TextView
+                    android:id="@+id/emaail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="70sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_blue_bright"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:text="Email" />
+
+            <TextView
+                    android:id="@+id/emaill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_blue_bright"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:text="TextView" />
+        </TableRow>
+
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+            <TextView
+                    android:id="@+id/paass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="70sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_blue_bright"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:text="Password" />
+
+            <TextView
+                    android:id="@+id/passs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_blue_bright"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:text="TextView" />
+        </TableRow>
+
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+            <TextView
+                    android:id="@+id/pnim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="70sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_blue_bright"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:text="Phone no" />
+
+            <TextView
+                    android:id="@+id/mobii"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_blue_bright"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:text="TextView" />
+        </TableRow>
+
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+            <TextView
+                    android:id="@+id/geen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="70sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_blue_bright"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:text="Gender" />
+
+            <TextView
+                    android:id="@+id/genn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_blue_bright"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+    </TableLayout>
+
+</RelativeLayout>

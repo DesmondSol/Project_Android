@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ph_cr"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+
+
+        <TextView
+                android:id="@+id/header"
+                android:layout_width="169dp"
+                android:layout_height="wrap_content"
+                android:text="Welcome User"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+        <Button
+                android:id="@+id/logout"
+                android:layout_width="170dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="#b13939"
+                android:onClick="usrLogOut"
+                android:text="Log Out"
+                android:textAllCaps="false"
+                android:textColor="#fffdfd"
+                android:textSize="15sp" />
+
+    </TableRow>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

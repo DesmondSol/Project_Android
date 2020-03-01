@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyKotlin</string>
+    <string name="log_in">Log In</string>
+    <string name="user_registration">User Registration</string>
+    <string name="full_name">Full Name:</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="e_mail">E-Mail:</string>
+    <string name="user_name">User Name:</string>
+    <string name="enter_the_user_name">Enter the User Name</string>
+    <string name="enter_the_email">Enter the Email</string>
+    <string name="password">Password</string>
+    <string name="enter_the_password">Enter the Password</string>
+    <string name="phone_no">Phone-No:</string>
+    <string name="enter_phone_no">Enter Phone-No</string>
+
+    <string name="login_preference">log_pref</string>
+    <string name="login_status_preference">log_stat_pref</string>
+
+
+</resources>
